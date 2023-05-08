@@ -247,7 +247,7 @@ def main():
                 ['Diastolic Blood Pressure', diaBP], 
                 ['BMI', BMI], 
                 ['Heart rate', heartRate], 
-                ], columns=['Features', 'Auto-scaled Input Value'])
+                ], columns=['Features', 'Auto-scaled Inputs'])
     
     col1.dataframe(df_coeff.style.background_gradient(cmap='YlOrRd').set_precision(4), 500, 450)
     
