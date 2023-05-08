@@ -30,8 +30,7 @@ st.markdown(
     # Predicting Coronary Heart Disease (CHD) :anatomical_heart:
     Please accompany this presentation while using the web app:
     https://docs.google.com/presentation/d/1TU5UdwtOQCTvxj9SmecTFN-m6p184v-ah2NaWa2Z47s/edit?usp=sharing
-    """ 
-    , unsafe_allow_html=True) 
+    """, unsafe_allow_html=True) 
     
 st.divider()
 st.subheader('Objective:')
