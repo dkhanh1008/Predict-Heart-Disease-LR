@@ -175,7 +175,7 @@ def main():
         X_test_continuous_scaled = np.array(X_test_continuous).reshape(1,-1)
         
         #scale all
-        df = pd.read_csv('/Users/duykhanhpham/Desktop/UTD-Spring 2023/ITSS 4382 - AI&ML/Final Project/data/framingham.csv')
+        df = pd.read_csv('Predict-Heart-Disease-LR/data/framingham.csv')
         scaler = scaler.fit(df[['age', 'cigsPerDay', 'totChol', 'sysBP', 'diaBP', 'BMI', 'heartRate']])
         
         scaled_value = scaler.transform(df_test)
@@ -268,15 +268,6 @@ def main():
     st.write("Connect with me on Kaggle: https://www.kaggle.com/duykhanhpham")
     st.write("Visit my Kaggle workbook here: https://www.kaggle.com/code/duykhanhpham/predicting-heart-disease-using-logistic-regression")
     st.divider()
-
-  
-   
-
-
-  
-
-
-
 
 if __name__ == '__main__':
     main()
