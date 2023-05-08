@@ -260,7 +260,7 @@ def main():
         label = prediction_label(np.array(list_).reshape(1,-1))
         proba = np.round(prediction_proba(np.array(list_).reshape(1,-1)) * 100, 2)
         #st.success('The result is {}'.format(label))
-        st.info(f'Your probaility of having CHD in the next 10 years is {proba}%')
+        st.warning(f'Your probaility of having CHD in the next 10 years is {proba}%')
         
     st.divider()
     st.subheader('Connect with me:')
