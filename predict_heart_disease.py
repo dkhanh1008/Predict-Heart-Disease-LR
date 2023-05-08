@@ -28,6 +28,8 @@ st.set_page_config(layout="wide")
 st.markdown(
     """
     # Predicting Coronary Heart Disease (CHD) :anatomical_heart:
+    Please view this presentation as you explore this web app:
+    https://docs.google.com/presentation/d/1TU5UdwtOQCTvxj9SmecTFN-m6p184v-ah2NaWa2Z47s/edit?usp=sharing
     """ 
     , unsafe_allow_html=True) 
     
