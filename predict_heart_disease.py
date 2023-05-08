@@ -19,7 +19,7 @@ import plotly.graph_objects as go
 
 
 #the model
-pickle_in= open("/Users/duykhanhpham/Desktop/UTD-Spring 2023/ITSS 4382 - AI&ML/Final Project/grid_search.pk1","rb")
+pickle_in= open("grid_search.pk1","rb")
 classifier=pickle.load(pickle_in)
 
 st.set_page_config(layout="wide")
