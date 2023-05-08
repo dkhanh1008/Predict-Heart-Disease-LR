@@ -256,7 +256,7 @@ def main():
     #if user click "predict"
     st.subheader('Result: ')
     st.write('Please click \'Predict\' button after you finish inputing your information')
-    if st.sidebar.button("Predict"):
+    if st.button("Predict"):
         label = prediction_label(np.array(list_).reshape(1,-1))
         proba = np.round(prediction_proba(np.array(list_).reshape(1,-1)) * 100, 2)
         #st.success('The result is {}'.format(label))
