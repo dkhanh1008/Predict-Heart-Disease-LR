@@ -175,7 +175,7 @@ def main():
         X_test_continuous_scaled = np.array(X_test_continuous).reshape(1,-1)
         
         #scale all
-        df = pd.read_csv('/Users/duykhanhpham/Desktop/UTD-Spring 2023/ITSS 4382 - AI&ML/Final Project/framingham.csv')
+        df = pd.read_csv('/Users/duykhanhpham/Desktop/UTD-Spring 2023/ITSS 4382 - AI&ML/Final Project/data/framingham.csv')
         scaler = scaler.fit(df[['age', 'cigsPerDay', 'totChol', 'sysBP', 'diaBP', 'BMI', 'heartRate']])
         
         scaled_value = scaler.transform(df_test)
