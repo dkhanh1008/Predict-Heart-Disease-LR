@@ -63,7 +63,7 @@ def main():
         #markdown
         st.markdown(
             """
-            # Please enter your information here :male-doctor:
+            # Please answer the following medical questions :male-doctor::
             """ 
             ,unsafe_allow_html=True) 
     
